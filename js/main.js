@@ -38,8 +38,8 @@ function checkIfSufficientOrNot(selector, req, unoreverse = false) {
 
 function checkSelectors() {
     checkIfSufficientOrNot('MSps', game.total >= 100)
-    checkIfSufficientOrNot('MSps2', game.persec >= 1000)
-    checkIfSufficientOrNot('MuSp', game.persec >= 10000)
+    checkIfSufficientOrNot('MSps2', game.persec >= 100)
+    checkIfSufficientOrNot('MuSp', game.persec >= 1000)
 }
 
 setInterval(() => {
